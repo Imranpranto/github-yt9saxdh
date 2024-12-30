@@ -67,4 +67,14 @@
       }
     </script>
   </body>
+  <script type="text/javascript" charset="utf-8">
+    window.addEventListener('load', () => {
+      const widgetElement = document.createElement('charla-widget');
+      widgetElement.setAttribute("p", "6afef11b-df87-4ec0-897e-772629966b79");
+      document.body.appendChild(widgetElement);
+      const widgetCode = document.createElement('script');
+      widgetCode.src = 'https://app.getcharla.com/widget/widget.js';
+      document.body.appendChild(widgetCode);
+    });
+  </script>
 </html>
