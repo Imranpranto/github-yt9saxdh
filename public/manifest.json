@@ -1,0 +1,23 @@
+{
+  "name": "LiEnrich - LinkedIn Data Enrichment Tool",
+  "short_name": "LiEnrich",
+  "description": "Transform your LinkedIn networking with LiEnrich. Get powerful data enrichment, lead generation, and analytics tools to maximize your professional connections and business opportunities.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "https://wttwdqxijxvzylavmsrw.supabase.co/storage/v1/object/public/assets/lienrich-favicon-png.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://wttwdqxijxvzylavmsrw.supabase.co/storage/v1/object/public/assets/lienrich-favicon-png.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  VITE_SUPABASE_URL = "https://wttwdqxijxvzylavmsrw.supabase.co"
+  VITE_STRIPE_PUBLISHABLE_KEY = "pk_test_51PJI3VClmigcXiKNDAH2mwGO0NAeQ6gyfXaORD0z4FILuCcql6YL6kzrAuOYSBGcVLphs0eKs8f84jnT63huFSLE00xWUpIarV"
+  VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind0dHdkcXhpanh2enlsYXZtc3J3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM0MjY1MjksImV4cCI6MjA0OTAwMjUyOX0.SnP-JfIMCPs_GRkSoc-Kyr_Gqblqh7gwI4YdBTNWb0E"
+  VITE_RAPID_API_KEY = "your_rapid_api_key"
+  VITE_RAPID_API_HOST = "linkedin-data-api.p.rapidapi.com"
+  NODE_OPTIONS = "--max-old-space-size=4096"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

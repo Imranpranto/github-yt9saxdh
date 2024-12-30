@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /auth
+
+# Disallow private routes that require authentication
+Disallow: /settings
+Disallow: /my-subscription
+Disallow: /analytics
+Disallow: /leads
+
+# Sitemap
+Sitemap: https://lienrich.com/sitemap.xml
